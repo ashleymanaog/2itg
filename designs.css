@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.card1
+{	
+	height: 50px;
+	padding: 2px 25px;
+}
+.card2
+{	
+	height: 50px;
+	padding: 2px 25px;
+}
+.card3
+{	
+	height: 50px;
+	padding: 2px 25px;
+}
+.card4
+{	
+	height: 50px;
+	padding: 2px 25px;
+}
+<fieldset>
+	<legend>Address For</legend>
+		<label for = "homeoption"> Home </label>
+			<input type="radio" checked ="checked" name="address" id= "homeoption" value= "home" />
+		<label for = "businessoption"> Business </label>
+			<input type="radio" checked ="checked" name="address" id= "businessoption" value= "business" />
+</fieldset>
