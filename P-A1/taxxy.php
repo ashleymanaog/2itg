@@ -66,9 +66,7 @@
     </form>
     
     <?php
-    $_SESSION["salary"] = "";
-    $_SESSION["type"] = "";
-    $_SESSION["compute"] = "";
+    session_start();
 
     if(isset($_GET['compute'])) 
     {
